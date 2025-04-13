@@ -9,8 +9,8 @@ Um bot de WhatsApp que utiliza GPT-3.5 para responder mensagens, com integraçã
 - Recebe e responde mensagens do WhatsApp via Twilio
 - Processa respostas usando GPT-3.5 da OpenAI
 - Armazena histórico de conversas em SQLite
-- Sistema de créditos por usuário (1000 mensagens = R$ 10)
-- Interface web simples para instruções e compra de créditos
+- Sistema de créditos por usuário
+- Interface web simples para instruções
 
 ## Tecnologias
 
@@ -88,14 +88,15 @@ python app.py
 
 1. Envie uma mensagem para o número do WhatsApp fornecido pelo Twilio
 2. O bot responderá usando GPT-3.5
-3. Para comprar créditos, acesse a página inicial do bot
+3. Para obter mais créditos, entre em contato
 
-## Créditos
+## Contribuições
 
-- 1000 mensagens = R$ 10
-- Pagamento via link na página inicial
-- Histórico de conversas armazenado localmente
+Este é um projeto em desenvolvimento e pode ser melhorado com a cooperação da comunidade. Contribuições são bem-vindas através de pull requests e sugestões.
 
-## Suporte
-
-Para suporte, abra uma issue neste repositório. 
+Algumas áreas que podem ser aprimoradas:
+- Interface do usuário mais avançada
+- Recursos adicionais de IA
+- Melhorias na segurança
+- Documentação mais detalhada
+- Testes automatizados 
