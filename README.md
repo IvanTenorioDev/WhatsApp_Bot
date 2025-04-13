@@ -2,6 +2,25 @@
 
 Um bot de WhatsApp que utiliza GPT-3.5 para responder mensagens, com integração Twilio e armazenamento em SQLite.
 
+**Projeto em desenvolvimento**
+
+## Funcionalidades
+
+- Recebe e responde mensagens do WhatsApp via Twilio
+- Processa respostas usando GPT-3.5 da OpenAI
+- Armazena histórico de conversas em SQLite
+- Sistema de créditos por usuário (1000 mensagens = R$ 10)
+- Interface web simples para instruções e compra de créditos
+
+## Tecnologias
+
+- Python 3.9+
+- Flask 3.0.2
+- OpenAI API (GPT-3.5 Turbo)
+- Twilio WhatsApp API
+- SQLite
+- Railway (Deploy)
+
 ## Pré-requisitos
 
 1. Conta na Twilio (gratuita)
